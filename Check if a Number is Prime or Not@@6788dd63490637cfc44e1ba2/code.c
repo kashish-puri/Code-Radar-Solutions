@@ -10,8 +10,8 @@ int main(){
             break;
         }
         c++;
+    }
         if(c>n/2)
         printf("Prime");
-    }
     return 0;
 }
