@@ -7,7 +7,7 @@ int main(){
         if(a%i==0)
         is++;
     }
-    if(is==2)
+    if(is==1)
     printf("Prime");
     else
     printf("Not Prime");
