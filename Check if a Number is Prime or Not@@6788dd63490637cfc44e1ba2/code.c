@@ -12,7 +12,6 @@ int main(){
         }
         if(c>n/2)
         printf("Prime");
-        return 0;
     }
-
+    return 0;
 }
