@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int a,c=2;
-    scanf("%d %d",&a,&c);
+    scanf("%d",&a);
     while(c<=a/2)
     {
         if(a%c==0)
