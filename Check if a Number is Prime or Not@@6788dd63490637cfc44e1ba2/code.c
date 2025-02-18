@@ -8,8 +8,8 @@ int main(){
         {
             printf("Not Prime");
             break;
-            c++;
         }
+        c++;
         if(c>n/2)
         printf("Prime");
     }
