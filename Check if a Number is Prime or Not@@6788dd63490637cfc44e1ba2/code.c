@@ -1,15 +1,17 @@
 #include<stdio.h>
 int main(){
-    int a,i,is=1;
-    scanf("%d",&a);
-    for(i=2;i*i<=a;i++)
+    int n,c=2;
+    scanf("%d",&n);
+    while(c<=n/2)
     {
-        if(a%i==0)
-        is++;
+        if(n%c==0){
+        printf("Not Prime");
+        break;
+        }
+        c++;
     }
-    if(is==1)
+    if(c>n/2);
     printf("Prime");
-    else
-    printf("Not Prime");
     return 0;
+
 }
