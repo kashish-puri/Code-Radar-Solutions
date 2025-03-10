@@ -10,9 +10,9 @@ int main(){
         }
         c++;
     }
-    if(c>n/2);{
-    printf("Prime");
-    }
+        if(c>n/2);{
+        printf("Prime");
+        }
     return 0;
 
 }
