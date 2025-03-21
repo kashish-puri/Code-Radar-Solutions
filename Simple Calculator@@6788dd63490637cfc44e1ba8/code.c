@@ -21,6 +21,6 @@ int main(){
         c=a/b;
         printf("%.2f",c);
         break;
-        return 0;
     }
+    return 0;
 }
