@@ -21,8 +21,6 @@ int main(){
         c=a/b;
         printf("%.2f",c);
         break;
-        default:
-        printf("Invalid Operation");
         return 0;
     }
 }
