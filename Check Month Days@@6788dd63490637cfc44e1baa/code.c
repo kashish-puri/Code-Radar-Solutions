@@ -9,7 +9,7 @@ switch(day){
     case (4,6,9,11);
     printf("30");
     break;
-    case 2:
+    case (2):
     printf("28");
     break;
     default: printf("Invalid month");
