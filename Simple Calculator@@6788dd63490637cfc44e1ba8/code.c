@@ -4,24 +4,25 @@ int main(){
     int a,b,c;
     scanf("%c",&op);
     scanf("%d %d",&a,&b);
-    switch(op)
-    case '+':
-    c=a+b;
-    printf(c);
-    break;
-    case '-':
-    c=a-b;
-    printf(c);
-    break;
-    case '*':
-    c=a*b;
-    printf(c);
-    break;
-    case '/':
-    c=a/b;
-    printf(c);
-    break;
-    default:
-    printf("Invalid Operation");
+    switch(op){
+        case '+':
+        c=a+b;
+        printf("%.2f",c);
+        break;
+        case '-':
+        c=a-b;
+        printf("%.2f",c);
+        break;
+        case '*':
+        c=a*b;
+        printf("%.2f",c);
+        break;
+        case '/':
+        c=a/b;
+        printf("%.2f",c);
+        break;
+        default:
+        printf("Invalid Operation");
+        return 0;
 
 }
