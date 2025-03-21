@@ -15,5 +15,5 @@ switch(day){
     default: printf("Invalid month");
     break;
 }
-}
 return 0;
+}
