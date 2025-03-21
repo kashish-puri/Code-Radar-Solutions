@@ -24,5 +24,5 @@ int main(){
         default:
         printf("Invalid Operation");
         return 0;
-
+    }
 }
