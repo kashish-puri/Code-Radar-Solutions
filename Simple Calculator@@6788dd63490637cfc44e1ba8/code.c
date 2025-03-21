@@ -6,13 +6,13 @@ int main(){
     scanf("%d %d",&a,&b);
     switch(op){
         case '+': c=a+b;
-        printf("%d",c);
+            printf("%d",c);
         break;
         case '-': c=a-b;
-        printf("%d",c);
+            printf("%d",c);
         break;
         case '*': c=a*b;
-        printf("%d",c);
+            printf("%d",c);
         break;
         case '/':
         if(b!=0){
